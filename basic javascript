@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <tilte>
+            Curso Java_Script
+        </tilte>
+    </head>
+    <body>
+        <script>
+           console.log("helo world"); 
+        </script>
+    </body>
+</html>
