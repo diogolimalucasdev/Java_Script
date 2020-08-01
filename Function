@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <tilte>
+            Funções
+        </tilte>
+    
+    </head>
+    <body>
+        
+        <script>
+            function soma(num1,num2){
+                var resultado = num1 + num2;
+                return resultado;
+            }
+           var resultado =  soma(5,4); 
+            console.log(resultado);           
+        </script>
+    </body>
+</html>
