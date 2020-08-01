@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <tilte>
+            Variaveis
+        </tilte>
+    
+    <body>
+            <script>
+                var nome = "diogo";
+                var idade = 19;
+                var peso = 56.8;
+                var humano = true;
+                
+                var alunos = ['diogo', 'gabriel', 'lucas'];
+
+                var serie = {
+                    nome : alunos[0], //agora nao usamos o iguale sim dois pontos
+                                    //pois agora a variavel nome passa a ser propriedades do aluno
+                    idade: 19,
+                    peso: 56.9,
+                    humano: true
+                    
+                };
+               console.log(serie.nome);
+               console.log(serie.idade);
+               console.log(alunos[2]);
+              
+            
+            </script>
+
+    </body>
+    
+</html>
