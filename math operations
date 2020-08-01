@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <tilte>
+            operações_matematicas
+        </tilte>
+    
+    </head>
+    <body>
+        <script>
+            var x = 10, y = 5; //podemos usar assim,definimos duas variaveis em uma var
+
+            console.log(x,y); //posso o mesmo console log para mostrar duas infromações
+            var  resultado= x +y;
+            x += 3 ; //incrementação x = x +3 ; //incrementação
+            
+            console.log(resultado);
+        </script>
+    </body>
+</html>
