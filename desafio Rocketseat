@@ -1,0 +1,29 @@
+<html> 
+    <head>
+    
+        <tilte>
+            Curso Java_Script
+        </tilte>
+    </head>
+    <body>
+        <script> // desafio fazer com que o programa retorne o seguinte
+          //texto O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
+          // n º1293
+            var rua = "rua dos pinheiros";
+            var numero=  1293;
+            var bairro= "centro";
+            var cidade= "São Paulo";
+            var uf= "sp";
+           var endereço = {
+               rua : "rua dos pinheiros",
+               numero: 1293,
+               bairro: "centro",
+               cidade: "São Paulo",
+               uf:"sp"
+           };
+           console.log("o usuario mora em",endereço.cidade, "/", 
+           endereço.uf, "no bairro", endereço.bairro,  ",", "na rua",
+           endereço.rua,"com nº", endereço.numero);
+        </script>
+    </body>
+</html>
