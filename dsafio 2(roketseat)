@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <tilte>
+            Curso Java_Script
+        </tilte>
+    </head>
+    <body>
+        <script> //fazer com que reorne todos valores apresde 32a 321
+           
+           function verficar (x, y){
+               for(x; x<y; x++){
+                var resto = x % 2;
+                if(resto == 0){
+                console.log(x+ "par");
+               } else 
+                   console.log(x + "impar");
+                  }
+                  
+               }
+           
+            var loop = verficar(32,321);
+        </script>
+    </body>
+
+</html> 
