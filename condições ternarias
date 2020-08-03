@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <tilte>
+            condições ternarias
+        </tilte>
+    </head>
+    <body>
+        <script>
+           var sexo = 'm';
+          var retorno = (sexo === 'm') ? 'masculino' : 'feminino';
+          console.log(retorno);
+
+          
+        </script>
+    </body>
+</html>
