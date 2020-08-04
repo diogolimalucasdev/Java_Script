@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <tilte>
+            <meta charset = "utf-8">
+            Curso Java_Script
+        </tilte>
+    </head>
+    <body>
+        <div id="app">
+            <input class = "input" type="text" name="nome" /> 
+            <button class = "botão">Adcionar </button>
+        </div>
+        
+        <script>
+            var inputelemnt = document.querySelector('input.input');
+            // aqui eu determino com o queryslector o que eu quero buscar na minha Dom
+            var element = document.querySelector('button.botão');
+            //aqui eu falei pro query selector ir ate meu documento
+            // buscar o nutton e referenciando a classe usando o ponto
+           element.onclick = function(){
+               var text = inputelemnt.value;
+               //estou recuperando o valor que entrou no input
+               alert(text);
+               //aqui eumostro novamente o que foi
+            }
+        </script>
+    </body>
+</html>
