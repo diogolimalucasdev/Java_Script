@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <tilte>
+            <meta charset = "utf-8">
+            Curso Java_Script
+        </tilte>
+    </head>
+    <body>
+        <div id="app">
+            <button onclick="mostraralerta()"> Mepressione </button>
+        </div>
+        <script>
+
+           function mostraralerta(){
+               alert('bootão foi clicado');
+           }
+        </script>
+    </body>
+</html>
