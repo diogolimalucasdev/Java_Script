@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <tilte>
+            <meta charset = "utf-8">
+            Curso Java_Script
+        </tilte>
+    </head>
+    <body>
+        <div id="app">
+        </div>
+        <script>
+           var linkdelemento = document.createElement('a');
+           //para criarmos um link
+           linkdelemento.setAttribute
+           ('href',"www.linkedin.com/in/diogolimadev/");
+           //mas para acessar esse link o usaurio precisa clicar em algo
+        //para isso iremos criar um texto vinculado ao link
+            var texto = document.createTextNode('acessar o linkdin');
+            //aqui é o texto que queremos para o usaurio clicar
+            linkdelemento.appendChild(texto);
+            // agora eu vinculo o texto com o link
+            // agora precisamos jogar esse codigo no corpo do html
+            //pois ate agora ele esta no js
+            var jogarnohtml = document.querySelector('#app');
+            //eu to indo buscar o div pelo seu id
+            jogarnohtml.appendChild(linkdelemento);
+            // to vinculando a variavel 9linkelemento) com 
+            //jogarnohtml, que por sua vez esta vinculada coma div que esta
+            //contida no html
+        </script>
+    </body>
+</html>
