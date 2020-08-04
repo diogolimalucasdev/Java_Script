@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <tilte>
+           desafio 3
+        </tilte>
+    </head>
+    <body>
+        <script>
+            var skills = ['java_script', 'React.js', 'node.js']; // meu array 
+            function temhabilidade(skills){ //chamo meu array dentro da função
+            if(skills.indexOf('rr')!== -1){ //indo no array skills e buscando o elemento java_Script
+                                                    //apartir do index 0, o IndexOf(o maiusculo)
+                console.log("verdadeiro");
+           }else {
+                console.log("falso");
+            }
+            }
+           temhabilidade(skills); //preciso chamar a função pois se nao ela fica comouma local 
+        </script>
+    </body>
+</html>
