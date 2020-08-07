@@ -1,0 +1,39 @@
+
+var lista = document.querySelector('#objetos ul');
+//importo a lista do html
+var entrada = document.querySelector('#objetos input');
+var botao = document.querySelector('#objetos button');
+
+
+var nome = ['diego', 'lucas', 'douglas'];
+
+function chamar (){ 
+   lista.innerHTML = '';
+
+    for (cadastro of nome){
+        var intem = document.createElement('li');
+        //crio uma variavel para cada idem de uma lista/array
+        
+        var todos = document.createTextNode(cadastro);
+        //crio uma variavel que  armazene tudo o que foi lido no for
+
+        intem.appendChild(todos);
+        //adciono tudo o que foi lido no for dentro de cada intem
+        lista.appendChild(intem);
+        //chameii minha lista e adcionei cada lista 
+    }   
+}
+chamar();
+function adicionar(){
+   var ler = entrada.Value;
+    //recupero o valor do meu input assim posso saber o quee foi digitado e adcionar a minha lista
+    nome.push(ler);
+    //to adcionando ao nome e ao todos que esta vinculado com o cadastro
+    entrada.value = '';
+    //assim o valor do meu input nao criara umanova lista
+    chamar();
+}
+//console.log(adicionar);
+chamar();
+
+botao.onclick = adicionar;
