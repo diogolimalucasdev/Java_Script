@@ -1,0 +1,45 @@
+//rest
+const usuario = {
+    nome: 'diego',
+    idade: 23,
+    empresa: 'rocketseat'
+
+};
+
+const {nome,...resto } = usuario;
+
+console.log(nome);
+console.log(resto);
+
+//exemplo com numeros
+
+function soma(...params){
+    return params.reduce((total, next ) => total +next);
+}
+
+console.log(soma(1, 3, 4));
+
+//spread 
+
+const arra1 = [1,2,3];
+const arr2 = [8,9,10];
+
+const arr3 = [...arra1, ...arr2];
+
+console.log(arr3);
+
+
+//spread quando queremos mudar algo dentro de um objeto
+
+
+const usuario = {
+    nome: 'Diogo',
+    idade: 19,
+    cidade: 'rio de janeiro'
+
+};
+
+
+const usuarioarrumado = {...usuario, cidade:'São Paulo'};
+
+console.log(usuarioarrumado);
