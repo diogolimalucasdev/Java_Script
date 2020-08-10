@@ -1,0 +1,10 @@
+const usuario = {
+    nome: 'diego',
+    idade : 23,
+    endereço: {
+        cidade : 'Sao Pualo',
+        estado : 'sp',
+    },
+    };
+
+    const {nome, idade, endereço:{ cidade}} = usuario;
