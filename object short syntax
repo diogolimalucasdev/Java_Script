@@ -1,0 +1,6 @@
+const nome ='diego';
+const idade = 23;
+const usuario = {
+    nome,
+    idade,
+};
