@@ -1,0 +1,11 @@
+const minhapromise = () => new Promise ((resolve, reject) =>{
+setTimeout(()=> {resolve('Ok') }, 2000);
+});
+
+
+async function executapromise(){
+    const response = await minhapromise();
+    console.log(response);
+
+}
+executapromise();
