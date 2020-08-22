@@ -5,6 +5,7 @@ let celular = function(){
     this.ligar= function(){
     //transformamos a minha função em método
     console.log("ligando....");
+    return "chamada recebida";
 
     }
 
