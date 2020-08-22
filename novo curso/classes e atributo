@@ -1,9 +1,20 @@
 let celular = function(){
     this.cor = "prata";
     //transformamos minha variavel em atributo
+
+    this.ligar= function(){
+    //transformamos a minha função em método
+    console.log("ligando....");
+
+    }
+
+
+
 }
 let objeto = new celular; 
 //instancio a minha classe a variavel objeto
 
 console.log(objeto.cor); 
 //aqui conseguimos acessar o atributo dentro a minha classe
+
+console.log(objeto.ligar());
