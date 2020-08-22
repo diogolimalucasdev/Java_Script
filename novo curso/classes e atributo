@@ -1,0 +1,9 @@
+let celular = function(){
+    this.cor = "prata";
+    //transformamos minha variavel em atributo
+}
+let objeto = new celular; 
+//instancio a minha classe a variavel objeto
+
+console.log(objeto.cor); 
+//aqui conseguimos acessar o atributo dentro a minha classe
